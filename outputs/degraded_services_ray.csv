@@ -1,0 +1,6 @@
+service_name,reason
+auth-service,repeated timeout errors (199)
+notification-service,repeated timeout errors (164)
+order-service,repeated timeout errors (308)
+payment-service,high slow request rate (2134/7914=26.96%); high server error rate (1362/7914=17.21%); repeated timeout errors (664)
+search-service,high slow request rate (4581/10616=43.15%); repeated timeout errors (446)

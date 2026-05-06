@@ -1,0 +1,4 @@
+tool,job,runtime_seconds,environment
+local_mapreduce,request_count_by_service,8.602414,local_python_simulation
+local_mapreduce,server_error_count_by_service,8.716114,local_python_simulation
+local_mapreduce,top10_slow_endpoints,8.113450,local_python_simulation
