@@ -5,3 +5,16 @@ __pycache__/
 outputs/tmp/
 *.log
 .env
+# IDE
+.idea/
+.vscode/
+
+# Local backups
+outputs_local_backup/
+
+# Secrets
+*.pem
+*.key
+.env
+.ossutilconfig
+ossutilconfig

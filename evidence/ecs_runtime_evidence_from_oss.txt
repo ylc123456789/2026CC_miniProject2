@@ -1,3 +1,30 @@
+Execution environment: Alibaba Cloud ECS
+Input source: Alibaba Cloud OSS
+OSS input object: oss://<private-bucket>/input/cloud_service_logs.csv
+Region: China East 1 (Hangzhou)
+
+OS information:
+LSB Version:	core-11.1.0ubuntu4-noarch:security-11.1.0ubuntu4-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.5 LTS
+Release:	22.04
+Codename:	jammy
+
+CPU cores:
+2
+
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.4Gi       476Mi       529Mi       2.0Mi       2.4Gi       2.7Gi
+Swap:             0B          0B          0B
+
+Python version:
+Python 3.10.12
+
+Ray version:
+2.55.1
+
+Runtime results:
 tool,job,runtime_seconds,environment
 local_mapreduce,request_count_by_service,8.602414,local_python_simulation
 local_mapreduce,server_error_count_by_service,8.716114,local_python_simulation
