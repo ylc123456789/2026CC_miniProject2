@@ -2,3 +2,7 @@ tool,job,runtime_seconds,environment
 local_mapreduce,request_count_by_service,8.602414,local_python_simulation
 local_mapreduce,server_error_count_by_service,8.716114,local_python_simulation
 local_mapreduce,top10_slow_endpoints,8.113450,local_python_simulation
+local_mapreduce,request_count_by_service,0.164654,local_python_simulation
+local_mapreduce,server_error_count_by_service,0.123013,local_python_simulation
+local_mapreduce,top10_slow_endpoints,0.147206,local_python_simulation
+ray,degraded_service_detection,18.418318,ray_local_mode_partitions_4
