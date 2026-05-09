@@ -1,0 +1,16 @@
+Execution environment: Alibaba Cloud ECS
+Input source: Alibaba Cloud OSS
+OSS input object: oss://<private-bucket>/input/cloud_service_logs.csv
+Region: China East 1 (Hangzhou)
+OS: Ubuntu 22.04.5 LTS
+CPU cores: 2
+Memory: 3.4 GiB
+Python version: Python 3.10.12
+Ray version: 2.55.1
+
+Final ECS-from-OSS runtime results:
+tool,job,runtime_seconds,environment
+local_mapreduce,request_count_by_service,0.197309,local_python_simulation
+local_mapreduce,server_error_count_by_service,0.198777,local_python_simulation
+local_mapreduce,top10_slow_endpoints,0.189722,local_python_simulation
+ray,degraded_service_detection,6.540599,ray_local_mode_partitions_4

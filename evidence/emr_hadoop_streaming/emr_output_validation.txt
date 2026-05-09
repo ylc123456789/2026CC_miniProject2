@@ -1,0 +1,9 @@
+EMR Hadoop Streaming validation
+
+Request count diff:
+
+Server error count diff:
+
+Top 10 slow endpoints diff:
+
+If no diff lines are shown above, the EMR outputs match the validated baseline outputs.
